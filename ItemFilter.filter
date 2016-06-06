@@ -1,0 +1,258 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+
+# Section: Currency
+
+# Currency - Rare Currency
+Show
+    BaseType "Exalted Orb" "Divine Orb" "Regal Orb" "Gemcutter's Prism" "Mirror of Kalandra"
+    SetTextColor 170 158 130
+    SetBorderColor 255 0 0
+    SetFontSize 45
+    PlayAlertSound 5 100
+
+# Currency - Medium Currency
+Show
+    BaseType "Orb of Regret" "Chaos Orb" "Blessed Orb" "Orb of Scouring" "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Vaal Orb" "Glassblower's Bauble"
+    SetTextColor 170 158 130
+    SetBorderColor 255 165 0
+    SetFontSize 40
+    PlayAlertSound 4 100
+
+# Currency - Common Currency
+Show
+    BaseType "Orb of Chance" "Jeweller's Orb" "Orb of Augmentation" "Orb of Alteration" "Chromatic Orb" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
+    SetTextColor 170 158 130
+    SetBorderColor 170 158 130
+    SetFontSize 35
+
+# Currency - Scrolls
+Show
+    BaseType "Portal Scroll" "Scroll of Wisdom" "Scroll Fragment"
+    SetTextColor 170 158 130
+    SetBorderColor 255 255 255
+    SetFontSize 30
+	
+# Currency - Other
+Show
+	BaseType "Silver Coin" "Silver Key" "Golden Key" "Treasure Key"
+	SetTextColor 128 0 128
+	SetBorderColor 170 158 130
+	SetFontSize 35
+
+# Section: Gems
+
+# Gems - Corrupted
+Show
+    BaseType "Vaal Arc" "Vaal Burning Arrow" "Vaal Clarity" "Vaal Cold Snap" "Vaal Cyclone" "Vaal Detonate Dead" "Vaal Discipline" "Vaal Double Strike" "Vaal Fireball" "Vaal Flameblast" "Vaal Glacial Hammer" "Vaal Grace" "Vaal Ground Slam" "Vaal Haste" "Vaal Heavy Strike" "Vaal Ice Nova" "Vaal Immortal Call" "Vaal Lightning Strike" "Vaal Lightning Warp" "Vaal Molten Shell" "Vaal Power Siphon" "Vaal Rain of Arrows" "Vaal Reave" "Vaal Righteous Fire" "Vaal Spark" "Vaal Spectral Throw" "Vaal Storm Call" "Vaal Summon Skeletons" "Vaal Sweep"
+    SetTextColor 210 0 0
+    SetBorderColor 27 162 155
+
+# Gems - Active Skill Gems - 20% Quality
+Show
+    Quality = 20
+    Class "Active Skill Gems"
+    SetTextColor 15 135 120 # Gems Zero Quality Text
+    SetBackgroundColor 0 0 0 # Gems Zero Quality Background
+    SetBorderColor 255 0 0
+    SetFontSize 40
+    PlayAlertSound 2 100
+
+# Gems - Active Skill Gems - Quality
+Show
+    Quality > 0
+    Class "Active Skill Gems"
+    SetTextColor 15 135 120 # Gems Zero Quality Text
+    SetBackgroundColor 0 0 0 # Gems Zero Quality Background
+    SetBorderColor 15 135 120
+    SetFontSize 40
+    PlayAlertSound 2 100
+
+# Gems - Active Skill Gems - No Qaulity
+Show
+    Class "Active"
+    SetTextColor 15 135 120 # Gems Zero Quality Text
+    SetBackgroundColor 0 0 0 # Gems Zero Quality Background
+
+# Gems - Support Skill Gems - 20% Quality
+Show
+    Quality = 20
+    Class "Support Skill Gems"
+    SetTextColor 72 186 167 # Gems Zero Quality Text
+    SetBackgroundColor 38 59 59 # Gems Zero Quality Background
+    SetBorderColor 255 0 0
+    SetFontSize 40
+    PlayAlertSound 2 100
+
+# Gems - Support Skill Gems - Quality
+Show
+    Quality > 0
+    Class "Support Skill Gems"
+    SetTextColor 72 186 167 # Gems Zero Quality Text
+    SetBackgroundColor 38 59 59 # Gems Zero Quality Background
+    SetBorderColor 15 135 120
+    SetFontSize 40
+    PlayAlertSound 2 100
+
+# Gems - Support Skill Gems - No Qaulity
+Show
+    Class "Support Skill Gems"
+    SetTextColor 72 186 167 # Gems Zero Quality Text
+    SetBackgroundColor 38 59 59
+
+# Section: Crafting Items
+
+# Crafting Items - Chromatic Item
+Show
+    LinkedSockets >= 3
+    SocketGroup "RBG"
+    SetBorderColor 0 0 255
+    SetFontSize 35
+
+# Crafting Items - Cartographer's Chisel
+Show
+    Rarity = Normal
+    BaseType "Gavel" "Stone Hammer" "Rock Breaker"
+    SetBorderColor 255 255 255
+
+# Crafting Items - Armourer's Scrap
+Show
+    Quality = 20
+    Class "Gloves" "Helmets" "Boots" "Shields" "Body Armours"
+    SetBorderColor 255 255 255
+
+# Crafting Items - Blacksmith's Whetstone
+Show
+    Quality = 20
+    Class "One Hand Axes" "Two Hand Axes" "Bows" "Claws" "Daggers" "One Hand Maces" "Two Hand Maces" "Sceptres" "Staves" "One Hand Swords" "Thrusting One Hand Swords" "Two Hand Swords" "Wands"
+    SetBorderColor 255 255 255
+
+# Crafting Items - Glassblower's Bauble
+Show
+    Quality > 0
+    Class "Life Flasks" "Mana Flasks" "Hybrid Flasks" "Utility Flasks"
+    SetBorderColor 255 255 255
+
+# Crafting Items - Jeweller's Orbs
+Show
+    Sockets = 6
+    LinkedSockets < 5
+    SetBorderColor 255 255 255
+    SetFontSize 35
+
+# Crafting Items - Chaos Recipe
+Show
+    ItemLevel >= 60
+    ItemLevel <= 74
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBorderColor 255 255 119
+
+# Crafting Items - Regal Recipe
+Show
+    ItemLevel >= 75
+    ItemLevel <= 100
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBorderColor 255 40 0 220
+
+# Section: Special Items
+
+Show
+    Class "Fishing Rods"
+
+Show
+    Class "Divination Card"
+    SetTextColor 170 230 230
+    SetBorderColor 170 230 230
+    SetFontSize 40
+    PlayAlertSound 9 100
+
+# Special Items - Quest Items
+Show
+    Class "Quest Items"
+    SetTextColor 74 230 58
+    SetBorderColor 74 230 58
+
+# Section: Jewels
+
+Show
+    Rarity = Unique
+    Class "Jewel"
+    SetTextColor 175 96 37
+    SetBorderColor 128 0 128
+    SetFontSize 40
+    PlayAlertSound 1 100
+
+# Special Items - Jewels
+Show
+    Class "Jewel"
+    SetBorderColor 128 0 128
+
+# Section: Maps
+
+# Maps - Regular Maps
+Show
+    Class "Maps"
+    SetBorderColor 255 40 0 220
+    SetFontSize 40
+
+# Maps - Map Fragments
+Show
+    Class "Map Fragments"
+    SetTextColor 210 0 0
+    SetBorderColor 210 0 0
+    SetFontSize 40
+
+# Section: Other Items
+
+Show
+    ItemLevel <= 59
+    Rarity = Rare
+    Class "Daggers" "Wands" "Claws" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Shields"
+    SetTextColor 255 255 119
+
+# Useful Bases - Items with up to 4 sockets
+Show
+    ItemLevel <= 59
+    Rarity = Rare
+    Class "Body Armours" "Gloves" "Boots" "Helmets" "Bow" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces"
+    SetTextColor 255 255 119
+
+# Other Items - 5+ Linked Sockets
+Show
+    LinkedSockets >= 5
+    SetFontSize 40
+
+# Other Items - Unique
+Show
+    Rarity = Unique
+    SetTextColor 175 96 37
+    SetBorderColor 175 96 37
+    SetFontSize 40
+
+Show
+    Rarity = Rare
+    SetTextColor 255 255 119
+
+# Section: Useful Bases
+
+Show
+    Class "Life Flasks" "Mana Flasks" "Utility Flasks"
+    SetBackgroundColor 0 0 0 100
+    SetFontSize 30
+
+Show
+    ItemLevel >= 36
+    Class "Amulets" "Rings" "Belts"
+    SetBackgroundColor 0 0 0 100
+    SetFontSize 30
+
+# Section: Leveling
+
+# Leveling - Disables Filters for new charecters
+Show
+    ItemLevel <= 35
+
+# Leveling - Items of no use
+Hide
+
