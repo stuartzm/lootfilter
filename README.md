@@ -1,4 +1,4 @@
-# ${1:Vitreous's Loot Filter}
+# Vitreous's Loot Filter
 
 This is a non-intrusive loot filter for Path of Exile. This loot filter features no harsh colors, and adhears to the color scheme and style of the game.
 
