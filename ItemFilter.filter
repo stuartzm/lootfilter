@@ -203,6 +203,15 @@ Show
     SetBorderColor 210 0 0
     SetFontSize 40
 
+Show
+	BaseType "Offering to the Goddess"
+	SetTextColor 77 199 184
+    SetBorderColor 77 199 184
+    SetFontSize 40
+    PlayAlertSound 1 80
+	
+	
+	
 # Section: Other Items
 
 Show
