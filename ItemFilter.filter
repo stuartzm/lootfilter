@@ -219,7 +219,7 @@ Show
     PlayAlertSound 1 80
 	
 Show
-	BaseType "Misc Map Items"
+	Class "Misc Map Items"
 	SetTextColor 77 199 184
     SetBorderColor 77 199 184
     SetFontSize 40
