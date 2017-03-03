@@ -4,7 +4,7 @@
 
 # Currency - Rare Currency
 Show
-    BaseType "Exalted Orb" "Divine Orb" "Regal Orb" "Gemcutter's Prism" "Mirror of Kalandra" "Ancient Reliquart Key"
+    BaseType "Exalted Orb" "Divine Orb" "Regal Orb" "Gemcutter's Prism" "Mirror of Kalandra" "Ancient Reliquary Key"
     SetTextColor 170 158 130
     SetBorderColor 255 0 0
     SetFontSize 45
@@ -39,14 +39,6 @@ Show
 	SetBorderColor 170 158 130
 	SetFontSize 35
 
-# Section: Gems
-
-# Gems - Corrupted
-Show
-    BaseType "Vaal Arc" "Vaal Burning Arrow" "Vaal Clarity" "Vaal Cold Snap" "Vaal Cyclone" "Vaal Detonate Dead" "Vaal Discipline" "Vaal Double Strike" "Vaal Fireball" "Vaal Flameblast" "Vaal Glacial Hammer" "Vaal Grace" "Vaal Ground Slam" "Vaal Haste" "Vaal Heavy Strike" "Vaal Ice Nova" "Vaal Immortal Call" "Vaal Lightning Strike" "Vaal Lightning Warp" "Vaal Molten Shell" "Vaal Power Siphon" "Vaal Rain of Arrows" "Vaal Reave" "Vaal Righteous Fire" "Vaal Spark" "Vaal Spectral Throw" "Vaal Storm Call" "Vaal Summon Skeletons" "Vaal Sweep"
-    SetTextColor 210 0 0
-    SetBorderColor 27 162 155
-
 # League Stones
 Show
 	Class "Leaguestone"
@@ -54,6 +46,14 @@ Show
     SetBorderColor 255 165 0
     SetFontSize 40
     PlayAlertSound 4 100
+	
+# Section: Gems
+
+# Gems - Corrupted
+Show
+    BaseType "Vaal Arc" "Vaal Burning Arrow" "Vaal Clarity" "Vaal Cold Snap" "Vaal Cyclone" "Vaal Detonate Dead" "Vaal Discipline" "Vaal Double Strike" "Vaal Fireball" "Vaal Flameblast" "Vaal Glacial Hammer" "Vaal Grace" "Vaal Ground Slam" "Vaal Haste" "Vaal Heavy Strike" "Vaal Ice Nova" "Vaal Immortal Call" "Vaal Lightning Strike" "Vaal Lightning Warp" "Vaal Molten Shell" "Vaal Power Siphon" "Vaal Rain of Arrows" "Vaal Reave" "Vaal Righteous Fire" "Vaal Spark" "Vaal Spectral Throw" "Vaal Storm Call" "Vaal Summon Skeletons" "Vaal Sweep"
+    SetTextColor 210 0 0
+    SetBorderColor 27 162 155
 	
 # Gems - Active Skill Gems - 20% Quality
 Show
@@ -218,7 +218,12 @@ Show
     SetFontSize 40
     PlayAlertSound 1 80
 	
-	
+Show
+	BaseType "Misc Map Items"
+	SetTextColor 77 199 184
+    SetBorderColor 77 199 184
+    SetFontSize 40
+    PlayAlertSound 1 80
 	
 # Section: Other Items
 
