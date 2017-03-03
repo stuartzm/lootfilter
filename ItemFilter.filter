@@ -4,7 +4,7 @@
 
 # Currency - Rare Currency
 Show
-    BaseType "Exalted Orb" "Divine Orb" "Regal Orb" "Gemcutter's Prism" "Mirror of Kalandra"
+    BaseType "Exalted Orb" "Divine Orb" "Regal Orb" "Gemcutter's Prism" "Mirror of Kalandra" "Ancient Reliquart Key"
     SetTextColor 170 158 130
     SetBorderColor 255 0 0
     SetFontSize 45
@@ -47,6 +47,14 @@ Show
     SetTextColor 210 0 0
     SetBorderColor 27 162 155
 
+# League Stones
+Show
+	Class "Leaguestone"
+	SetTextColor 170 158 130
+    SetBorderColor 255 165 0
+    SetFontSize 40
+    PlayAlertSound 4 100
+	
 # Gems - Active Skill Gems - 20% Quality
 Show
     Quality = 20
