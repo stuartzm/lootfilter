@@ -264,10 +264,28 @@ Show
     SetFontSize 30
 
 Show
-    ItemLevel >= 36
+	Rarity = Normal
+    ItemLevel >= 75
     Class "Amulets" "Rings" "Belts"
     SetBackgroundColor 0 0 0 100
     SetFontSize 30
+	
+Show
+	BaseType "Crystal Belt" "Opal Ring"
+	SetBorderColor 255 255 255
+    SetFontSize 35
+	
+Show
+	ItemLevel >= 84
+	BaseType "Vaal Regalia" "Sorcerer Gloves" "Arcanist Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Harmonic Spirit Shield" "Vaal Spirit Shield" "Titanium Spirit Shield"
+    SetBackgroundColor 0 0 0 100
+    SetFontSize 30
+	
+Show
+	Rarity = Normal
+	BaseType "Sorcerer Boots" 
+	SetBorderColor 255 255 255
+    SetFontSize 35
 
 # Section: Leveling
 
