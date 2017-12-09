@@ -340,12 +340,6 @@ Show
     SetFontSize 35
 
 Show
-    BaseType "Vaal Regalia" "Sorcerer Gloves" "Arcanist Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Harmonic Spirit Shield" "Vaal Spirit Shield" "Titanium Spirit Shield"
-    ItemLevel >= 84
-    SetBackgroundColor 0 0 0 100
-    SetFontSize 30
-	
-Show
 	ElderItem True 
     SetBackgroundColor 0 0 0 100
     SetFontSize 30
@@ -359,7 +353,7 @@ Show
 
 # Leveling - Disables Filters for new charecters
 Show
-    ItemLevel <= 35
+    ItemLevel <= 25
 
 # Leveling - Items of no use
 Hide
