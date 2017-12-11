@@ -23,14 +23,14 @@ Show
     BaseType "Orb of Chance" "Jeweller's Orb" "Orb of Augmentation" "Orb of Alteration" "Chromatic Orb" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
     SetTextColor 170 158 130
     SetBorderColor 170 158 130
-    SetFontSize 35
+    SetFontSize 30
 
 # Currency - Scrolls
 Show
     BaseType "Portal Scroll" "Scroll of Wisdom" "Scroll Fragment"
     SetTextColor 170 158 130
     SetBorderColor 255 255 255
-    SetFontSize 35
+    SetFontSize 30
 
 # Currency - Other
 Show
@@ -149,22 +149,21 @@ Show
 
 Show
     Class "Jewel"
+	Rarity = Rare
+    SetBorderColor 128 0 128
+
+Show
+    Class "Jewel"
     Rarity = Unique
     SetTextColor 175 96 37
     SetBorderColor 128 0 128
     SetFontSize 40
     PlayAlertSound 1 100
 
-Show
-    Class "Jewel"
-	Rarity = Rare
-    SetBorderColor 128 0 128
-
 # Special Items - Abyss Jewels
 
 Show
     Class "Abyss Jewel"
-	Rarity = Rare
     SetBorderColor 128 0 128
 	
 Show
@@ -174,7 +173,7 @@ Show
     SetBorderColor 128 0 128
     SetFontSize 40
     PlayAlertSound 1 100
-
+	
 # Section: Maps
 
 # Maps - Unique Maps
@@ -307,6 +306,16 @@ Show
     SetTextColor 175 96 37
     SetBorderColor 175 96 37
     SetFontSize 40
+	
+Show
+	ElderItem True 
+	SetTextColor 255 40 255 220
+	SetBorderColor 255 40 255 220
+		
+Show
+	ShaperItem True 
+	SetTextColor 255 40 0 220
+	SetBorderColor 255 40 0 220
 
 Show
 	Rarity = Rare
@@ -342,16 +351,6 @@ Show
     BaseType "Crystal Belt" "Opal Ring" "Stygian Vise"
     SetBorderColor 255 255 255
     SetFontSize 35
-
-Show
-	ElderItem True 
-    SetBackgroundColor 0 0 0 100
-    SetFontSize 30
-		
-Show
-	ShaperItem True 
-    SetBackgroundColor 0 0 0 100
-    SetFontSize 30
 		
 # Section: Leveling
 
